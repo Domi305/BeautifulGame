@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="144dp"
+    android:layout_height="wrap_content"
     android:background="@android:color/white"
     android:padding="16dp">
 
@@ -28,26 +28,28 @@
         android:fontFamily="sans-serif-light"
         android:textColor="#777777"
         android:textSize="14sp"
-        tools:text="This will be a description. Making long description to see how it will look int he 2 lines" />
+        tools:text="This will be a description. Making long description to see how it will look int he 2 lines. This will be a description. Making long description to see how it will look int the 5 lines. Making even longer to see how it scale" />
 
     <RatingBar
         android:id="@+id/rating_bar"
         style="@style/Widget.AppCompat.RatingBar.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/card_view_image_container"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/text_view_description"
         tools:rating="3.5f" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view_image_container"
         android:layout_width="160dp"
-        android:layout_height="match_parent"
+        android:layout_height="160dp"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="12dp"
         app:cardCornerRadius="16dp">
 
 
         <ImageView
+            android:contentDescription="@string/image_view_football_on_beach"
             android:id="@+id/image_view_item_picture"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

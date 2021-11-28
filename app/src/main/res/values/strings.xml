@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Beautiful Game</string>
+    <string name="text_view_ways_to_play">Ways to Play</string>
+    <string name="text_view_stadiums_to_go">Stadiums to Go</string>
+    <string name="image_view_football_stadium">Football Stadium</string>
+    <string name="image_view_football_on_grass">Football on grass</string>
+    <string name="image_view_football_on_beach">football on beach</string>
 </resources>

@@ -38,10 +38,10 @@ public class BeautifulGameAdapter extends RecyclerView.Adapter<BeautifulGameAdap
     }
 
     static class BeautifulGameEntryViewHolder extends RecyclerView.ViewHolder {
-        private ImageView image;
-        private TextView headerText;
-        private TextView descriptionText;
-        private RatingBar ratingBar;
+        private final ImageView image;
+        private final TextView headerText;
+        private final TextView descriptionText;
+        private final RatingBar ratingBar;
 
         public BeautifulGameEntryViewHolder(@NonNull View itemView) {
             super(itemView);

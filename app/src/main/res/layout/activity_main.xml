@@ -19,6 +19,7 @@
         app:cardCornerRadius="24dp">
 
         <ImageView
+            android:contentDescription="@string/image_view_football_on_grass"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -35,7 +36,7 @@
             android:layout_gravity="bottom"
             android:layout_margin="12dp"
             android:fontFamily="sans-serif-light"
-            android:text="Ways to Play"
+            android:text="@string/text_view_ways_to_play"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
@@ -50,6 +51,7 @@
         app:cardCornerRadius="24dp">
 
         <ImageView
+            android:contentDescription="@string/image_view_football_stadium"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -66,7 +68,7 @@
             android:layout_gravity="bottom"
             android:layout_margin="12dp"
             android:fontFamily="sans-serif-light"
-            android:text="Stadiums to Go"
+            android:text="@string/text_view_stadiums_to_go"
             android:textColor="#FFFFFF"
             android:textSize="22sp" />
 
